@@ -1,0 +1,28 @@
+﻿Analyzing pomodoro_timer...
+
+  error - lib\presentation\widgets\circular_timer\timer_painter.dart:3:8 - Target of URI doesn't exist: '../../core/theme/app_colors.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist. - uri_does_not_exist
+  error - lib\presentation\widgets\circular_timer\timer_painter.dart:4:8 - Target of URI doesn't exist: '../../domain/providers/timer_provider.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist. - uri_does_not_exist
+  error - lib\presentation\widgets\circular_timer\timer_painter.dart:14:9 - Undefined class 'TimerState'. Try changing the name to the name of an existing class, or creating a class with the name 'TimerState'. - undefined_class
+  error - lib\presentation\widgets\circular_timer\timer_painter.dart:15:9 - Undefined class 'SessionType'. Try changing the name to the name of an existing class, or creating a class with the name 'SessionType'. - undefined_class
+  error - lib\presentation\widgets\circular_timer\timer_painter.dart:35:23 - Undefined name 'TimerState'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - lib\presentation\widgets\circular_timer\timer_painter.dart:36:23 - Undefined name 'AppColors'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - lib\presentation\widgets\circular_timer\timer_painter.dart:37:21 - Undefined name 'AppColors'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - lib\presentation\widgets\circular_timer\timer_painter.dart:40:14 - Undefined name 'SessionType'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - lib\presentation\widgets\circular_timer\timer_painter.dart:41:27 - Undefined name 'AppColors'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - lib\presentation\widgets\circular_timer\timer_painter.dart:42:25 - Undefined name 'AppColors'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - lib\presentation\widgets\circular_timer\timer_painter.dart:44:14 - Undefined name 'SessionType'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - lib\presentation\widgets\circular_timer\timer_painter.dart:45:14 - Undefined name 'SessionType'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - lib\presentation\widgets\circular_timer\timer_painter.dart:46:27 - Undefined name 'AppColors'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - lib\presentation\widgets\circular_timer\timer_painter.dart:47:25 - Undefined name 'AppColors'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - lib\presentation\widgets\circular_timer\timer_painter.dart:54:30 - Undefined name 'AppColors'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - lib\presentation\widgets\circular_timer\timer_painter.dart:54:57 - Undefined name 'AppColors'. Try correcting the name to one that is defined, or defining the name. - undefined_identifier
+  error - lib\presentation\widgets\circular_timer\timer_painter.dart:71:18 - The non-nullable local variable 'gradientStart' must be assigned before it can be used. Try giving it an initializer expression, or ensure that it's assigned on every execution path. - not_assigned_potentially_non_nullable_local_variable
+  error - lib\presentation\widgets\circular_timer\timer_painter.dart:71:33 - The non-nullable local variable 'gradientEnd' must be assigned before it can be used. Try giving it an initializer expression, or ensure that it's assigned on every execution path. - not_assigned_potentially_non_nullable_local_variable
+  error - lib\presentation\widgets\circular_timer\timer_painter.dart:71:46 - The non-nullable local variable 'gradientStart' must be assigned before it can be used. Try giving it an initializer expression, or ensure that it's assigned on every execution path. - not_assigned_potentially_non_nullable_local_variable
+  error - lib\presentation\widgets\circular_timer\timer_painter.dart:97:19 - The non-nullable local variable 'gradientStart' must be assigned before it can be used. Try giving it an initializer expression, or ensure that it's assigned on every execution path. - not_assigned_potentially_non_nullable_local_variable
+  error - lib\presentation\widgets\circular_timer\timer_painter.dart:103:19 - The non-nullable local variable 'gradientStart' must be assigned before it can be used. Try giving it an initializer expression, or ensure that it's assigned on every execution path. - not_assigned_potentially_non_nullable_local_variable
+  error - test\widget_test.dart:16:35 - The name 'MyApp' isn't a class. Try correcting the name to match an existing class. - creation_with_non_type
+warning - lib\domain\providers\timer_provider.dart:30:12 - The value of the field '_elapsed' isn't used. Try removing the field, or using it. - unused_field
+warning - lib\domain\providers\timer_provider.dart:31:12 - The value of the field '_lastTickerTimestamp' isn't used. Try removing the field, or using it. - unused_field
+
+24 issues found.
